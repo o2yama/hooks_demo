@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tab_controller_demo/tab_view.dart';
 
 class HomeTabPage extends StatelessWidget {
   const HomeTabPage({Key? key}) : super(key: key);
@@ -7,7 +8,7 @@ class HomeTabPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Home')),
-      body: Container(),
+      body: TabView(),
     );
   }
 }
